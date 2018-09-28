@@ -1,38 +1,37 @@
-<b>Esto está fuera de php</b>
-<?="<h1>Hola mundo!!</h1>"?>
-<i>Por tanto será ignorado</i>
-
-<?php
-
-if(true){ //condicional simple
-	echo "<br>Esta es la parte verdadera";
-}
-
-$numero = 150;
-if($numero < 10){ //condicional compuesto
-	echo "<br>Esta es la parte verdadera";
-} else echo "<br>Esta es la parte falsa";
-
-
-if($numero == 100){ //condicional multiple
-	echo "<br>El numero es 100";
-	} else if ($numero > 100) {
-		echo "<br>El número es mayor que 100";
-	}else {
-		echo "<br>El número es menor que 100";
-} 
-
-if($numero == 100){ ?>
-<br>El numero es 100
-<?php } else if ($numero > 100) { ?>
-<br>El número es mayor que 100
-<?php }else {?>
-<br>El número es menor que 100
-<?php } ?>
-
+<h1>Menú de resolución de las hojas de problemas</h1>
 <br>
+<ul>
+	<li>
+		<h3>Hoja número 1</h3>
+		<ul>
+			<li><a href="/hoja1/ejercicio_1.php">Problema 1</a></li>
+			<li>Problema 2</li>
+			<li><a href="/hoja1/ejercicio_3.php">Problema 3</a></li>
+			<li>Problema 4</li>
+			<li>Problema 5</li>
+			<li>Problema 6</li>
+			<li>Problema 7</li>
+			<li>Problema 8</li>
+			<li>Problema 9</li>
+			<li>Problema 10</li>
+		</ul>
+	</li>
 
-<?php
-$cadena ="Esto es una variable";
-echo "$cadena<br>";
-var_dump($cadena);
+	<li>
+		<h3>Hoja número 2</h3>
+	<ul>
+		<li>Problema 1</li>
+		<li>Problema 2</li>
+		<li>Problema 3</li>
+		<li>Problema 4</li>
+		<li>Problema 5</li>
+		<li>Problema 6</li>
+		<li>Problema 7</li>
+		<li>Problema 8</li>
+		<li>Problema 9</li>
+	
+	</ul>
+	</li>
+
+
+</ul>
